@@ -12,12 +12,12 @@ const About = () => {
             {/*Introduction*/}
 
             <h1 className="head-text">
-                Hello, I'm <span className="blue-gradient_text font-semibold drop-shadow">Albert</span>
+                Hi, I'm <span className="blue-gradient_text font-semibold drop-shadow">Albert</span>
             </h1>
 
             <div>
                 <p>
-                    Hello, I'm Albert, a penultimate software engineering student with a passion for front-end and
+                    I am a penultimate software engineering student with a passion for front-end and
                     back-end programming.
                      I'm eager to add value to the right company that will grant me an opportunity. <br/> 
                     

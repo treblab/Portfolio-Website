@@ -30,12 +30,19 @@ import {
     pacman,
     jellyfish,
     pigeon,
-    planet
+    planet,
+    sign,
+    python
 } from "../assets/icons";
 
-import { dove, fishTank, planetVid } from "../videos"
+import { dove, fishTank, planetVid, auslanapp } from "../videos"
 
 export const skills = [
+    {
+        imageUrl: python,
+        name: "Python",
+        type: "Backend",
+    },
     {
         imageUrl: java,
         name: "Java",
@@ -153,6 +160,14 @@ export const projects = [
         videoUrl: dove
     },
     {
+        iconUrl: sign,
+        theme: 'btn-back-green',
+        name: 'Sign Language Translator',
+        description: 'A Python web application using OpenCV and a CNN machine learning model to translate sign language gestures into text and text into sign language. Won People\'s Choice Award at the Spring 2024 UTS Software Innovation Studio!',
+        link: 'https://github.com/LNWork/Auslan-sign-app',
+        videoUrl: auslanapp
+    },
+    {
         iconUrl: jellyfish,
         theme: 'btn-back-blue',
         name: '3D Javascript Fish Tank',
@@ -165,6 +180,12 @@ export const projects = [
         name: '3D Customisable Planet',
         description: 'A customisable planet built with JavaScript and Three.js, utilizing shaders rendered through WebGL. Ray marching algorithms were used for dynamic terrain generation.',
         videoUrl: planetVid
+    },
+    {
+        iconUrl: pacman,
+        theme: 'btn-back-green',
+        name: 'Visual Novel Game',
+        description: 'Visual novel game focusing on the impacts of war on civilians. Developed using Unity with the Naninovel package, featuring branching dialogue and multiple endings.',
     },
     {
         iconUrl: pacman,

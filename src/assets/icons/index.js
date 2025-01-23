@@ -19,6 +19,7 @@ import twitter from './twitter.svg'
 import car from './car.svg'
 import estate from './estate.svg'
 import pricewise from './pricewise.svg'
+import python from './python.svg'
 import snapgram from './snapgram.svg'
 import summiz from './summiz.svg'
 import threads from './threads.svg'
@@ -34,6 +35,7 @@ import pacman from './pacman.png'
 import jellyfish from './jellyfish.png'
 import pigeon from './pigeon.png'
 import planet from './planet.png'
+import sign from './sign.png'
 
 export {
     css,
@@ -70,5 +72,7 @@ export {
     pacman,
     jellyfish,
     pigeon,
-    planet
+    python,
+    planet,
+    sign
 }
