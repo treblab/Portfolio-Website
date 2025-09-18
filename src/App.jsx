@@ -6,7 +6,7 @@ import Footer from "./components/Footer.jsx";
 
 const App = () => {
     return (
-        <main className="bg-slate-300/20 h-[100vh]">
+        <main className="bg-slate-300/20 h-[1000vh]">
             <Router>
                 <Navbar/>
                 <Routes>
