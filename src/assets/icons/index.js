@@ -37,7 +37,7 @@ import pigeon from './pigeon.png'
 import planet from './planet.png'
 import sign from './sign.png'
 import lambda from './lambda.svg'
-import ANT61 from './ANT61.svg'
+import ANT61 from './ANT61.png'
 
 export {
     css,

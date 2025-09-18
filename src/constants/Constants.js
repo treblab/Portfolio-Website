@@ -112,7 +112,7 @@ export const experiences = [
         title: "Software Engineer Intern",
         company_name: "ANT61",
         icon: ANT61,
-        iconBg: "Orange",
+        iconBg: "orange",
         date: "Mar 2025 – Jun 2025",
         points: [
             "Designed telemetry visualisation and data tracking tools using React and TypeScript for a live satellite communication system.",
