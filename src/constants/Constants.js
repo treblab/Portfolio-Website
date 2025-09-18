@@ -169,11 +169,11 @@ export const socialLinks = [
         iconUrl: contact,
         link: '/contact',
     },
-    // {
-    //     name: 'GitHub',
-    //     iconUrl: github,
-    //     link: 'https://github.com/YourGitHubUsername',
-    // },
+    {
+        name: 'GitHub',
+        iconUrl: github,
+        link: 'https://github.com/treblab',
+    },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
