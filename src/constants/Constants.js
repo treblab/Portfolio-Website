@@ -32,7 +32,8 @@ import {
     pigeon,
     planet,
     sign,
-    python
+    python,
+    lambda
 } from "../assets/icons";
 
 import { dove, fishTank, planetVid, auslanapp } from "../videos"
@@ -87,6 +88,21 @@ export const skills = [
         imageUrl: react,
         name: "React",
         type: "Frontend",
+    },
+    {
+        imageUrl: typescript,
+        name: "TypeScript",
+        type: "Frontend",
+    },
+    {
+        imageUrl: lambda,
+        name: "AWS Lambda",
+        type: "Backend",
+    },
+        {
+        imageUrl: nodejs,
+        name: "Node.js",
+        type: "Backend",
     },
 ];
 

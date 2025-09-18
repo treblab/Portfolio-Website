@@ -36,6 +36,7 @@ import jellyfish from './jellyfish.png'
 import pigeon from './pigeon.png'
 import planet from './planet.png'
 import sign from './sign.png'
+import lambda from './lambda.svg'
 
 export {
     css,
@@ -74,5 +75,6 @@ export {
     pigeon,
     python,
     planet,
-    sign
+    sign,
+    lambda
 }
