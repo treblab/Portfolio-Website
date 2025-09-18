@@ -33,7 +33,8 @@ import {
     planet,
     sign,
     python,
-    lambda
+    lambda,
+    ANT61
 } from "../assets/icons";
 
 import { dove, fishTank, planetVid, auslanapp } from "../videos"
@@ -107,6 +108,21 @@ export const skills = [
 ];
 
 export const experiences = [
+    {
+        title: "Software Engineer Intern",
+        company_name: "ANT61",
+        icon: ANT61,
+        iconBg: "Orange",
+        date: "Mar 2025 – Jun 2025",
+        points: [
+            "Designed telemetry visualisation and data tracking tools using React and TypeScript for a live satellite communication system.",
+            "Deployed serverless AWS Lambda functions to validate and repair real-time data payloads.",
+            "Integrated GraphQL APIs for efficient satellite telemetry communication between systems.",
+            "Developed modular ROS2 software components for robotic motion planning using C++ and MoveIt.",
+            "Engineered data interfaces to translate structured joint commands into hardware-executable CAN signals.",
+            "Collaborated with the Embedded Software Team and conducted intern recruitment interviews."
+        ],
+    },
     {
         title: "Lead Developer",
         company_name: "PackServ",

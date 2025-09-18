@@ -17,7 +17,7 @@ const About = () => {
 
             <div>
                 <p>
-                    I am a penultimate software engineering student with a passion for front-end and
+                    I am a final-year software engineering student with a passion for front-end and
                     back-end programming.
                      I'm eager to add value to the right company that will grant me an opportunity. <br/> 
                     
@@ -119,16 +119,22 @@ const About = () => {
                 </div>
             </div>
 
-            {/*<div>*/}
-            {/*    <h3 className='subhead-text'>Education</h3>*/}
-            {/*</div>*/}
+            <div className="mt-8 flex justify-center">
+                <a
+                    href="public/Albert Nguyen Resume.pdf"
+                    download
+                    className="inline-block px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition"
+                >
+                    Download My Resume
+                </a>
+            </div>
 
             <div className='py-16'>
                 <h3 className='subhead-text'>Education</h3>
                 <div className='mt-5 flex flex-col gap-3 text-black'>
                     <p>
-                        Third-year student currently studying a Bachelor's of Software Engineering at the University of Technology Sydney (UTS). 
-                        Included on the Dean's List of Engineering (2023), for maintaining a High Distinction WAM and academic excellence.
+                        Final-year student currently studying a Bachelor's of Software Engineering at the University of Technology Sydney (UTS). 
+                        Included on the Dean's List of Engineering (2023, 2025), for maintaining a High Distinction WAM and academic excellence.
                     </p>
                 </div>
 
