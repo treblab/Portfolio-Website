@@ -14,7 +14,7 @@ const Projects = () => {
         </span>
             </h1>
 
-            <p className='text-slate-500 mt-2 leading-relaxed'>
+            <p className='text-white-500 mt-2 leading-relaxed'>
                 My projects showcase strong software engineering skills, using custom physics, AI pathfinding, and advanced 3D techniques. 
                 They were developed using object-oriented programming (OOP) principles 
                 to ensure code scalability and functionality on both the front and back-end. 
@@ -42,7 +42,7 @@ const Projects = () => {
                             <h4 className='text-2xl font-poppins font-semibold'>
                                 {project.name}
                             </h4>
-                            <p className='mt-2 text-slate-500'>{project.description} </p>
+                            <p className='mt-2 text-white-500'>{project.description} </p>
                             <div>
                                 {project.videoUrl && (
                                     <video controls loop className='mt-5 w-full project-video' preload='metadata'>

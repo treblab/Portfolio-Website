@@ -3,12 +3,15 @@ import { Route, BrowserRouter as Router, Routes, useLocation } from 'react-route
 import Navbar from "./components/Navbar.jsx";
 import { Home, About, Projects, Contact } from './pages';
 import Footer from "./components/Footer.jsx";
+import { ThemeProvider } from './contexts/ThemeContext.jsx';
 
 const App = () => {
     return (
-        <Router>
-            <AppContent />
-        </Router>
+        <ThemeProvider>
+            <Router>
+                <AppContent />
+            </Router>
+        </ThemeProvider>
     );
 }
 
@@ -16,7 +19,7 @@ const AppContent = () => {
     const location = useLocation();
 
     return (
-        <main className="bg-slate-300/20 min-h-screen">
+        <main className="bg-gradient-to-br from-slate-900 via-blue-600 via-30% to-indigo-900 to-70% dark:bg-gradient-to-br dark:from-slate-900 dark:via-blue-700 dark:via-30% dark:to-purple-900 dark:to-70% text-gray-900 dark:text-gray-100 min-h-screen transition-colors duration-300">
             <Navbar/>
             <Routes>
                 <Route path="/" element={<Home />} />
