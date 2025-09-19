@@ -8,7 +8,9 @@ const About = () => {
     const [activeTab, setActiveTab] = useState('overview');
     const [expandedSections, setExpandedSections] = useState({
         sustainability: false,
-        intercultural: false
+        intercultural: false,
+        sustainabilityFull: false,
+        interculturalFull: false
     });
 
     const toggleSection = (section) => {
@@ -238,6 +240,47 @@ const About = () => {
                             <p>
                                 This experience taught me that <strong className="text-cyan-300">sustainability in engineering is multi-dimensional</strong> – encompassing environmental, social, and economic factors that must be balanced for truly viable systems.
                             </p>
+
+                            {/* Read the Full Story Button */}
+                            <div className="mt-6 border-t border-cyan-500/30 pt-4">
+                                <button
+                                    onClick={() => toggleSection('sustainabilityFull')}
+                                    className="inline-flex items-center gap-2 text-purple-400 hover:text-cyan-200 font-medium transition-colors"
+                                >
+                                    <span>📖 Read the Full Story</span>
+                                    <span className="text-lg">
+                                        {expandedSections.sustainabilityFull ? '⬆️' : '⬇️'}
+                                    </span>
+                                </button>
+
+                                <div className={`expandable-content mt-4 ${
+                                    expandedSections.sustainabilityFull ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'
+                                }`}>
+                                    <div className="bg-slate-800/30 p-6 rounded-lg space-y-4 text-sm leading-relaxed">
+                                        <p>
+                                            During my Engineering Capstone project, I developed a sign language translation system that could handle ambiguous words by asking users for clarification. In natural language, many words have multiple meanings depending on context – for example, the word "bat" could refer to an animal or a piece of sports equipment. This challenge is known as word sense disambiguation (WSD), and it's crucial for ensuring accurate translations between English and Auslan (Australian Sign Language).
+                                        </p>
+                                        <p>
+                                            Initially, I considered using a large language model (LLM) API like ChatGPT to perform this disambiguation. However, I made the deliberate choice to build and train my own smaller model from scratch. My goal was twofold: to improve real-time performance and to ensure the system's long-term sustainability. Large-scale LLMs consume substantial energy – for example, a single query to an LLM like GPT-3 can require multiple watt-hours of power, which adds up significantly across thousands of queries.
+                                        </p>
+                                        <p>
+                                            I felt strongly about this decision because accessibility and inclusion were at the heart of my project. My system was designed to support the Deaf community, many of whom face barriers in communication and education. Creating a lightweight model that could be deployed on local devices without constant server access made the tool more sustainable in both environmental and social terms.
+                                        </p>
+                                        <p>
+                                            My background belief was that sustainability was often framed purely in environmental terms. However, this experience broadened my understanding. I recognised that social sustainability – designing for inclusion, equity, and long-term accessibility – is just as critical. I initially underestimated the trade-offs in power consumption and latency that come with large external APIs.
+                                        </p>
+                                        <p>
+                                            One of the key difficulties I encountered was striking the right balance between accuracy and model efficiency. Developing a smaller model meant I had to optimise training data, refine preprocessing techniques, and evaluate trade-offs between model complexity and interpretability. It challenged me to think critically and make principled decisions that aligned with my ethical goals.
+                                        </p>
+                                        <p>
+                                            Reflecting on this, I drew on the principles of sustainable engineering that go beyond energy efficiency – including resilience, scalability, and fairness. According to the Engineers Australia Stage 1 Competency Standards, engineers must "develop sustainable solutions through the adoption of appropriate materials, methods, and technologies."
+                                        </p>
+                                        <p>
+                                            From this experience, I learned that sustainability in engineering is multi-dimensional. Moving forward, I will approach system design not only with performance in mind but also with a focus on ethical scalability, social impact, and energy efficiency. I now see sustainability as a core design principle, not an afterthought.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -283,6 +326,50 @@ const About = () => {
 
                             <div className="pull-quote text-base">
                                 "These are not just communication skills, but essential tools for global engineering leadership."
+                            </div>
+
+                            {/* Read the Full Story Button */}
+                            <div className="mt-6 border-t border-blue-500/30 pt-4">
+                                <button
+                                    onClick={() => toggleSection('interculturalFull')}
+                                    className="inline-flex items-center gap-2 text-purple-400 hover:text-blue-200 font-medium transition-colors"
+                                >
+                                    <span>📖 Read the Full Story</span>
+                                    <span className="text-lg">
+                                        {expandedSections.interculturalFull ? '⬆️' : '⬇️'}
+                                    </span>
+                                </button>
+
+                                <div className={`expandable-content mt-4 ${
+                                    expandedSections.interculturalFull ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'
+                                }`}>
+                                    <div className="bg-slate-800/30 p-6 rounded-lg space-y-4 text-sm leading-relaxed">
+                                        <p>
+                                            In one of my university game development assignments, I collaborated with a partner to co-create a new game. Initially, everything was progressing well – we exchanged creative ideas, offered each other constructive feedback, and maintained a steady workflow. However, midway through the semester, things unexpectedly shifted.
+                                        </p>
+                                        <p>
+                                            I provided feedback on one of my partner's features, in the same constructive tone we had used earlier, but his reaction was unexpectedly defensive. He called me, audibly upset, and seemed to interpret my feedback as personal criticism. I was initially surprised by his strong emotional response and wasn't sure how to de-escalate the situation.
+                                        </p>
+                                        <p>
+                                            However, I reminded myself that reacting emotionally wouldn't help. I stayed composed and focused on listening. By asking clarifying questions, I was able to better understand his perspective. It became apparent that he hadn't fully read the feedback I sent. Ironically, he began voicing concerns that were already acknowledged or addressed in my original message.
+                                        </p>
+                                        <p>
+                                            Once we slowed things down and walked through each point together, he began to open up, and I noticed our ideas had more alignment than conflict. Prior to this, I believed that clear communication and constructive tone would always prevent misunderstandings. This situation challenged that assumption.
+                                        </p>
+                                        <p>
+                                            I realised that cultural or interpersonal differences – including varying communication styles, stress responses, or past experiences – can heavily influence how feedback is received, even if intentions are positive. The difficulty in this situation wasn't just the conflict itself, but navigating the emotional intensity while maintaining professionalism.
+                                        </p>
+                                        <p>
+                                            I had to practice emotional regulation and empathy, even though I initially felt blindsided. By giving him space to express himself and reaffirming our shared goals, I helped turn the conversation from confrontation into collaboration. I even learned things from his perspective that improved our project in the end.
+                                        </p>
+                                        <p>
+                                            This situation reflects key aspects of Engineers Australia's guidelines on communication and teamwork in diverse professional environments. It reinforced the importance of cultural competence and adaptability – vital traits in global engineering practice, where diverse teams are the norm.
+                                        </p>
+                                        <p>
+                                            Looking back, I learned that professional communication goes beyond clarity – it requires emotional intelligence, patience, and a willingness to bridge misunderstanding with empathy. In future cross-cultural or emotionally tense situations, I'll strive to create psychological safety, clarify intent, and respond with curiosity instead of defensiveness.
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
