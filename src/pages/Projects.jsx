@@ -23,7 +23,7 @@ const Projects = () => {
                 </span>
             </h1>
 
-            <div className="py-6">
+            <div className="py-4">
                 {/* empty space */}
             </div>
 

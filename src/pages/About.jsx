@@ -27,6 +27,10 @@ const About = () => {
                 Hi, I'm <span className="blue-gradient_text font-semibold drop-shadow">Albert!</span>
             </h1>
 
+            <div className="py-4">
+                {/* empty space */}
+            </div>
+
             <div className="story-card mb-12">
                 <p className="text-lg leading-relaxed">
                     My journey into software engineering began with a <strong className="text-cyan-300">curiosity for how complex systems power the world around us</strong> – from the algorithms behind smart devices to the code that connects satellites to ground control.
