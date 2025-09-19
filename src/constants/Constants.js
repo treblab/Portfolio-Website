@@ -202,7 +202,7 @@ export const projects = [
         theme: 'btn-back-green',
         name: 'Sign Language Translator',
         description: 'A Python web application using OpenCV and a CNN machine learning model to translate sign language gestures into text and text into sign language. Won People\'s Choice Award at the Spring 2024 UTS Software Innovation Studio!',
-        link: 'https://github.com/LNWork/Auslan-sign-app',
+        link: 'https://auslan-client-23374783959.australia-southeast1.run.app/',
         videoUrl: auslanapp
     },
     {

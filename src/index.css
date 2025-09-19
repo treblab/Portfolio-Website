@@ -79,7 +79,7 @@ body:has(.card[data-color="green"]:hover) {
     }
 
     .story-card {
-        @apply bg-white/10 backdrop-blur-sm border border-cyan-500/20 rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105;
+        @apply bg-white/10 backdrop-blur-sm border border-cyan-500/20 rounded-xl p-6 shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300;
     }
 
     .pull-quote {
@@ -210,11 +210,11 @@ body:has(.card[data-color="green"]:hover) {
 }
 
 .block-container:hover > .btn-back {
-    transform: translateZ(20px) rotateZ(15deg) rotateX(-20deg) rotateY(-20deg);
+    transform: translateZ(10px) rotateZ(15deg) rotateX(-10deg) rotateY(-10deg);
 }
 
 .block-container:hover > .btn-front {
-    transform: translateZ(80px) translateY(-5px) rotateX(15deg) rotateY(15deg);
+    transform: translateZ(40px) translateY(-2px) rotateX(8deg) rotateY(8deg);
 }
 
 /* Neo Brutalism */
