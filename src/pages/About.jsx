@@ -115,7 +115,7 @@ const About = () => {
                     <div>
                         <div className="mt-8 flex justify-center">
                             <a
-                                href="public/Albert Nguyen Resume.pdf"
+                                href="/Albert Nguyen Resume.pdf"
                                 download
                                 className="inline-block px-6 py-3 bg-gradient-to-r from-blue-600 to-cyan-600 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
                             >
@@ -426,7 +426,7 @@ const About = () => {
 
             <div className="mt-8 flex justify-center">
                 <a
-                    href="public/Cover Letter.pdf"
+                    href="/Cover Letter.pdf"
                     download
                     className="inline-block px-6 py-3 bg-gradient-to-r from-blue-600 to-cyan-600 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
                 >
