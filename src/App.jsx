@@ -19,8 +19,18 @@ const AppContent = () => {
     const location = useLocation();
 
     return (
-        <main className="bg-gradient-to-br from-slate-900 via-blue-600 via-30% to-indigo-900 to-70% dark:bg-gradient-to-br dark:from-slate-900 dark:via-blue-700 dark:via-30% dark:to-purple-900 dark:to-70% text-gray-900 dark:text-gray-100 min-h-screen transition-colors duration-300">
-            <Navbar/>
+            <main className="bg-gradient-to-br 
+                 from-slate-900 
+                 via-blue-900 
+                 to-cyan-900 
+                 dark:bg-gradient-to-br 
+                 dark:from-slate-950 
+                 dark:via-blue-950 
+                 dark:to-cyan-950 
+                 text-gray-100 
+                 min-h-screen 
+                 transition-colors duration-300">
+            <Navbar />
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
