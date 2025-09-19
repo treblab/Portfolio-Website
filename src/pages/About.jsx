@@ -12,7 +12,7 @@ const About = () => {
             {/*Introduction*/}
 
             <h1 className="head-text">
-                Hi, I'm <span className="blue-gradient_text font-semibold drop-shadow">Albert</span>
+                Hi, I'm <span className="blue-gradient_text font-semibold drop-shadow">Albert!</span>
             </h1>
 
             <div>
