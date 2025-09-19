@@ -174,18 +174,62 @@ const About = () => {
                 )}
 
                 {activeTab === 'education' && (
-                    <div className="story-card color-accent-purple p-6">
-                        <h4 className="text-xl font-semibold mb-4 text-purple-300">Academic Excellence</h4>
-                        <div className="space-y-4 text-gray-100">
-                            <p>
-                                <strong>Bachelor of Software Engineering</strong><br/>
-                                University of Technology Sydney (UTS)
-                            </p>
-                            <div className="bg-purple-500/20 p-4 rounded-lg">
-                                <p className="text-purple-200">
-                                    🏆 <strong>Dean's List of Engineering</strong> (2023, 2025)<br/>
-                                    Maintaining High Distinction WAM and academic excellence
+                    <div className="space-y-6">
+                        <div className="story-card color-accent-purple p-6">
+                            <h4 className="text-xl font-semibold mb-4 text-purple-300">Academic Excellence</h4>
+                            <div className="space-y-4 text-gray-100">
+                                <p>
+                                    <strong>Bachelor of Software Engineering</strong><br/>
+                                    University of Technology Sydney (UTS)
                                 </p>
+                                <div className="bg-purple-500/20 p-4 rounded-lg">
+                                    <p className="text-purple-200">
+                                        🏆 <strong>2x Dean's List of Engineering</strong> (2023, 2025)<br/>
+                                        Maintaining High Distinction WAM and academic excellence
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Key Achievements Grid */}
+                        <div className="grid md:grid-cols-3 gap-6">
+                            {/* Academic Grades */}
+                            <div className="story-card color-accent-purple p-6">
+                                <div className="text-center">
+                                    <div className="text-4xl mb-4">📊</div>
+                                    <h5 className="text-lg font-semibold mb-3 text-purple-300">Outstanding Grades</h5>
+                                    <div className="space-y-2 text-gray-100 text-sm">
+                                        <p><strong>85.04 WAM, 6.42 GPA</strong></p>
+                                        <p>Consistent academic excellence across all engineering subjects.</p>
+                                        <p className="text-purple-200">Top 10% of Cohort</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* Award Nominated Projects */}
+                            <div className="story-card color-accent-cyan p-6">
+                                <div className="text-center">
+                                    <div className="text-4xl mb-4">🏅</div>
+                                    <h5 className="text-lg font-semibold mb-3 text-cyan-300">Award Nominations</h5>
+                                    <div className="space-y-2 text-gray-100 text-sm">
+                                        <p><strong>2x Game Development Projects</strong></p>
+                                        <p>Created two games that were both nominated at the UTS 2024 and 2025 Game Showcases for best student game.</p>
+                                        <p className="text-cyan-200">Industry & Peer Recognition</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* Student Showcases */}
+                            <div className="story-card color-accent-blue p-6">
+                                <div className="text-center">
+                                    <div className="text-4xl mb-4">🎯</div>
+                                    <h5 className="text-lg font-semibold mb-3 text-blue-300">People's Choice Award</h5>
+                                    <div className="space-y-2 text-gray-100 text-sm">
+                                        <p><strong>UTS Software Innovation Studio</strong></p>
+                                        <p>Received in 2024, for outstanding project presentation and delivery. Created Auslan's first ever fully accessible sign language translation system.</p>
+                                        <p className="text-blue-200">Peer & Faculty Recognition</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -254,7 +298,7 @@ const About = () => {
                                 </button>
 
                                 <div className={`expandable-content mt-4 ${
-                                    expandedSections.sustainabilityFull ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'
+                                    expandedSections.sustainabilityFull ? 'expanded opacity-100' : 'collapsed opacity-0'
                                 }`}>
                                     <div className="bg-slate-800/30 p-6 rounded-lg space-y-4 text-sm leading-relaxed">
                                         <p>
@@ -341,7 +385,7 @@ const About = () => {
                                 </button>
 
                                 <div className={`expandable-content mt-4 ${
-                                    expandedSections.interculturalFull ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'
+                                    expandedSections.interculturalFull ? 'expanded opacity-100' : 'collapsed opacity-0'
                                 }`}>
                                     <div className="bg-slate-800/30 p-6 rounded-lg space-y-4 text-sm leading-relaxed">
                                         <p>
