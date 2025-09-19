@@ -34,7 +34,8 @@ import {
     sign,
     python,
     lambda,
-    ANT61
+    ANT61,
+    unreal
 } from "../assets/icons";
 
 import { dove, fishTank, planetVid, auslanapp } from "../videos"
@@ -63,7 +64,7 @@ export const skills = [
     {
         imageUrl: unity,
         name: "Unity",
-        type: "Frontend",
+        type: "Game Engine",
     },
     {
         imageUrl: html,
@@ -100,10 +101,15 @@ export const skills = [
         name: "AWS Lambda",
         type: "Backend",
     },
-        {
+    {
         imageUrl: nodejs,
         name: "Node.js",
         type: "Backend",
+    },
+    {
+        imageUrl: unreal,
+        name: "Unreal Engine 5",
+        type: "Game Engine",
     },
 ];
 
