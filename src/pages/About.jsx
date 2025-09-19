@@ -17,14 +17,20 @@ const About = () => {
 
             <div>
                 <p>
-                    I am a final-year software engineering student with a passion for front-end and
-                    back-end programming.
-                     I'm eager to add value to the right company that will grant me an opportunity. <br/> 
-                    
-                    <br/> I have a love for videogames and music -
-                    I see the creative processes in these fields reflected in software engineering, making it an
-                    exciting endeavor.
-                    
+                    My journey into software engineering began with a curiosity for how complex systems power the
+                    world around us – from the algorithms behind smart devices to the code that connects satellites
+                    to ground control. This curiosity evolved into a passion, leading me to pursue a degree in
+                    Software Engineering at UTS, where I've applied myself both academically and practically. At
+                    ANT61, I contributed to a Commonwealth-funded satellite servicing project, developing ROS2
+                    robotic control systems and full-stack web tools using React, GraphQL, and AWS. Before that, I
+                    built a strong analytical foundation during my time at J.P. Morgan, where I worked on data
+                    automation and financial reporting at scale.
+                    <br/><br/>
+                    I'm driven by a desire to build meaningful, high-impact software – whether it's empowering
+                    communication through sign language translation apps, optimising real-time systems, or
+                    creating award-nominated games that resonate with players. As I look ahead, my goal is to work
+                    on technology that improves lives and challenges me to keep learning, collaborating, and
+                    solving real-world problems through code.
                 </p>
             </div>
 
