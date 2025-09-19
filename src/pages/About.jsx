@@ -107,11 +107,11 @@ const About = () => {
 
                 {activeTab === 'experience' && (
                     <div>
-                        <div className="mb-8">
+                        <div className="mt-8 flex justify-center">
                             <a
                                 href="public/Albert Nguyen Resume.pdf"
                                 download
-                                className="inline-block px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition"
+                                className="inline-block px-6 py-3 bg-gradient-to-r from-blue-600 to-cyan-600 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
                             >
                                 Download My Resume
                             </a>
